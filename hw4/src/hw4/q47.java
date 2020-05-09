@@ -1,0 +1,14 @@
+package hw4;
+
+import java.util.Arrays;
+
+public class q47 {
+
+	public static void main(String[] args) {
+		
+		String[] os = new String[] { "Linux", "Mac", "Windows" };
+		System.out.println(Arrays.binarySearch(os, "Linux"));
+
+	}
+
+}
